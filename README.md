@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://github.com/jayantt1dubeyy/PROVENANCE-AWARE-BELIEF-AGGREGATION"><img src="https://img.shields.io/badge/📄_Research_Paper-Provenance--Aware_Belief_Aggregation-blue?style=flat-square" alt="Research paper"></a>
   <a href="https://github.com/jayantt1dubeyy/onion-ai"><img src="https://img.shields.io/badge/🤖_OpenMythos-Recurrent_LM-green?style=flat-square" alt="OpenMythos"></a>
+  <a href="https://nyx-crystal-ai.lovable.app/"><img src="https://img.shields.io/badge/🔮_Nyx-Live_Demo-brightgreen?style=flat-square" alt="Nyx live demo"></a>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
@@ -27,6 +28,13 @@ When agents report through different *communication conventions* — mappings fr
 - 🧪 Eight experiments (A–H), ten seeds, 95% confidence intervals, full sensitivity analyses
 - 🛡️ Robustness probes: correlated source errors leave the ranking intact (Exp H), and a stronger context-conditioned logistic baseline still trails the Bayesian aggregator
 - 🔁 Fully reproducible: every table and figure regenerates from the checked-in code and data
+
+**[Nyx — the Decision Intelligence Simulator](https://github.com/jayantt1dubeyy/nyx-crystal-ai)** · [live demo](https://nyx-crystal-ai.lovable.app/)
+
+Give it a hard decision — *"should we ban smartphones in schools?"* — and Nyx builds a miniature society of AI agents that debate, feel emotions, influence each other, and occasionally crash. The output isn't just a winner but a strategic forecast: hidden risks, fragile assumptions, key influencers, what-if scenarios.
+
+- 🎲 Fully deterministic kernel: the same seed always reproduces the same outcome — auditable and reproducible by design
+- 🧠 Agents carry 10 evolving psychological variables; advanced mode unlocks batch experiments, counterfactuals, Nash equilibria and Pareto frontiers
 
 **[OpenMythos — a miniature recurrent language model](https://github.com/jayantt1dubeyy/onion-ai)**
 
