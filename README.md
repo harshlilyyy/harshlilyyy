@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/jayantt1dubeyy/PROVENANCE-AWARE-BELIEF-AGGREGATION"><img src="https://img.shields.io/badge/📄_Research_Paper-Provenance--Aware_Belief_Aggregation-blue?style=flat-square" alt="Research paper"></a>
+  <a href="https://github.com/jayantt1dubeyy/onion-ai"><img src="https://img.shields.io/badge/🤖_OpenMythos-Recurrent_LM-green?style=flat-square" alt="OpenMythos"></a>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
   <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
@@ -27,13 +28,21 @@ When agents report through different *communication conventions* — mappings fr
 - 🛡️ Robustness probes: correlated source errors leave the ranking intact (Exp H), and a stronger context-conditioned logistic baseline still trails the Bayesian aggregator
 - 🔁 Fully reproducible: every table and figure regenerates from the checked-in code and data
 
+**[OpenMythos — a miniature recurrent language model](https://github.com/jayantt1dubeyy/onion-ai)**
+
+A from-scratch language model built around one question: does weight-shared recurrent iteration buy effective depth more cheaply than wider layers? **Prelude → Recurrent Block × N → Coda**, with GQA + RoPE attention, SwiGLU (or sparse MoE), and truncated BPTT.
+
+- ✅ 13 verification tests, all passing — including KV-cache equivalence for recurrent generation
+- 🧪 Pilot run: 722K-param model trained end-to-end, validation perplexity 5.6 → 4.2
+- 🚀 Colab-ready: reference 62.9M-param config sized for a single T4, with notebook + runbook
+
 ---
 
 ### 🛠️ What I work with
 
 `Python` · `PyTorch` · `NumPy` · `LaTeX` · `Git`
 
-**Interests:** multi-agent systems · Bayesian inference · trust & reputation · collective decision-making
+**Interests:** multi-agent systems · Bayesian inference · trust & reputation · small language models · collective decision-making
 
 ---
 
